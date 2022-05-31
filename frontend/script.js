@@ -8,10 +8,8 @@ googleSearchButton.addEventListener('click', function (event) {
     const searchTerm = form.querySelector('input[name="q"]').value
 
     if (searchTerm === '') {
-        alert('Írj már be valamit!');
+        alert('Írj már be valamit!!');
     } else {
         form.submit();
     }
-
-
 });

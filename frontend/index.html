@@ -6,6 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>This is FRONTEND</title>
+	<link rel="stylesheet" href="style.css">
+	
 	<script src="script.js" defer></script>
 	<script src="save-docs.js" defer></script>
 	<!------defer: késlelteti a js-t, hogy először a html töltődjön be és a js csak utána------>
@@ -13,17 +15,17 @@
 
 <body>
 	<!------<div id="root"></div>------>
-	<!------<form id="form-google-search" action="https://www.google.com/search" method="get">
+	<form class="hidden" id="form-google-search" action="https://www.google.com/search" method="get">
 		<a href="https://www.google.com/search?q=javascript">Keresés</a>
 		<input name="q" type="text">
 		<button id="btn-google-search">Send</button>
 	</form>
 
-	<form action="" method="post">
+	<form class="hidden" action="" method="post">
 		<input name="username" type="text">
 		<input name="password" type="password">
 		<button>Send</button>
-	</form>------>
+	</form>
 
 	<div class="docs">
 		<label for="doc-text">A dokumentum szövege</label>
